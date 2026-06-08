@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       CONFIG:
-        default: 'MEDIATEK-WIFI-YES'
+        default: 'IPQ807X-WIFI-NO'
         required: true
         type: choice
         options:
@@ -24,10 +24,11 @@ on:
           - X86
           - TEST
       SOURCE:
-        default: 'VIKINGYFY/immortalwrt'
+        default: 'Kosakanao/immortalwrt'
         required: true
         type: choice
         options:
+          - Kosakanao/immortalwrt
           - VIKINGYFY/immortalwrt
           - immortalwrt/immortalwrt
           - LiBwrt/openwrt-6.x

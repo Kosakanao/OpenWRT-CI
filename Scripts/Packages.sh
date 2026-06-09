@@ -79,7 +79,7 @@ UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
 #UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 #UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-UPDATE_PACKAGE "smartdns" "pymumu/smartdns" "master" "pkg"
+#UPDATE_PACKAGE "smartdns" "pymumu/smartdns" "master" "pkg"
 
 #更新软件包版本
 UPDATE_VERSION() {

@@ -57,7 +57,7 @@ UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
 #UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 #UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
 #UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
-UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
+UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "master" "pkg"
 #UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "main" "pkg"
 #UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 
@@ -79,7 +79,7 @@ UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
 UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-UPDATE_PACKAGE "smartdns" "kenzok8/openwrt-packages" "master" "" "luci-app-smartdns"
+UPDATE_PACKAGE "openwrt" "pymumu/smartdns" "master" "pkg"
 
 #更新软件包版本
 UPDATE_VERSION() {
